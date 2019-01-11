@@ -115,7 +115,7 @@ bot.on("message", async message => {
      let unmute2 = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
 
      let unmuteUsage = new Discord.RichEmbed()
-     .setDescription(`**Command:** W!unmute`)
+     .setDescription(`**Command:** !unmute`)
      .setColor("RANDOM")
      .addField("Description:", `unmute a member`)
      .addField("Usage:", `!unmute [user]`)

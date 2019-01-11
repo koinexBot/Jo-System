@@ -23,7 +23,7 @@ fs.readdir("./commands/", (err, files) => {
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
-  bot.user.setGame(`W!help`,'https://www.twitch.tv/JO-System');
+  bot.user.setGame(`koinexBot || !help`,'https://www.twitch.tv/JO-System');
 
 });
 

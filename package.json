@@ -1,0 +1,24 @@
+{
+  "name": "wantedmc-system",
+  "version": "1.0.0",
+  "description": "WantedMC-System (Discord) By SwOrD",
+  "main": "wantedmc.js",
+  "scripts": {
+    "test": " "
+  },
+  "author": "SwOrD",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "fs-js": "^1.0.6",
+    "get-youtube-id": "^1.0.0",
+    "gif-search": "^2.0.1",
+    "ms": "^2.1.1",
+    "opusscript": "0.0.6",
+    "simple-youtube-api": "^5.0.2",
+    "youtube-info": "^1.2.1",
+    "ytdl-core": "^0.25.2"
+  }
+}
